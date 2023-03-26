@@ -1,0 +1,13 @@
+/**
+    Title: payroll.css
+    Author: Jeremy Jasa
+    Date: 25 March 2023
+    Description: The CSS styling for the payroll HTML page.
+*/
+
+.card-content{
+    border: red dotted 1px;
+}
+#payroll-header{
+    text-align: center;
+}
