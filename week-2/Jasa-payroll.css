@@ -4,10 +4,11 @@
     Date: 25 March 2023
     Description: The CSS styling for the payroll HTML page.
 */
-
-.card-content{
+/* This sets the border for the list box. */
+.card-content {
     border: red dotted 1px;
 }
-#payroll-header{
+/* This sets the text alignment for the header. */
+#payroll-header {
     text-align: center;
 }
