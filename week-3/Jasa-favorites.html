@@ -1,0 +1,36 @@
+<!--
+    Title: favorites.html
+    Author: Jeremy Jasa
+    Date: 02 April 2023
+    Description: The HTML for the Favorites app.
+-->
+<!DOCTYPE html><html lang="en">
+<head>
+    <title>Web 231: Enterprise JavaScript I</title>
+    <!--This is linking the CSS files and google fonts.-->
+    <link href="Jasa-favorites.css" type="text/css" rel="stylesheet">
+    <link href="..\Jasa-global.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+	<body>
+     	<!--This is the outer container for the html.-->
+        <div id="container">
+            <!--The main header displayed on the page.-->
+            <h1 id="favorite-header">Welcome to the Favorites App!</h1>
+            <!--The sub header one displayed on the page.-->
+            <h3 class="card-title">My Favorites</h3>
+            <!--This holds the items in the list with no value.-->
+            
+            <button type="button" id="sport" class="btn">Favorite Sports Team</button>
+            <button type="button" id="book" class="btn">Favorite Book</button>
+            <button type="button" id="author" class="btn">Favorite Author</button>
+            <button type="button" id="language" class="btn">Favorite Programming Language</button>           
+            
+        <!--The creation of the Return on the page.-->
+        <a class="return-home">Return</a>
+        <!--This is linking to the JavaScript file.-->
+        <script type="text/javascript" src="Jasa-favorites.js"></script>
+	</body>
+</html>
