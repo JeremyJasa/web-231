@@ -19,10 +19,11 @@
     padding: 15px 32px;
     background-color: #4F3674;
     color: white;
-   margin:10px auto;
+   margin:10px;
     grid-template-columns: auto;
 	margin-top:50px;
 	width:500px;
+	margin-right: 500px;
  }
 /* This is the formatting for the shadow box and spacing between the buttons */
 .sub-header{
