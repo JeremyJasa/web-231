@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto','Helvetica Neue', sans-serif;
 }
 /*Main header setting text properties */
-#payroll-header {
+#header {
     text-align: center;
     font-weight: 400;
     padding: 15px 32px;
@@ -19,6 +19,7 @@ body {
 #return-home {
     color: #4F3674;
     text-decoration: none;
+    margin-left: 600px;
 }
 /* This set the color when hovering over the link. */
 #return-home :hover {
