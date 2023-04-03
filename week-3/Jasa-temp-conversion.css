@@ -1,0 +1,36 @@
+/**
+    Title: temp-conversion.css
+    Author: Jeremy Jasa
+    Date: 02 April 2023
+    Description: The CSS for the temp-conversion app and styling the HTML page.
+*/
+
+/* 
+   This is providing the format needed for the buttons the HTML page. 
+   Also creates the vertical line up of the buttons. 
+*/
+.btn-fav {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	cursor: pointer;
+    padding: 15px 32px;
+    background-color: #4F3674;
+    color: white;
+   margin:10px auto;
+    grid-template-columns: auto;
+	margin-top:50px;
+	width:500px;
+ }
+/* This is the formatting for the shadow box and spacing between the buttons */
+.sub-header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+	width: 600px;
+   margin:10px auto;
+    text-align: center;
+    color: #4F3674;
+	
+}

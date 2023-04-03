@@ -1,0 +1,43 @@
+<!--
+    Title: temp-conversion.html
+    Author: Jeremy Jasa
+    Date: 02 April 2023
+    Description: The HTML for the temp-conversion app.
+-->
+<!DOCTYPE html><html lang="en">
+<head>
+    <title>Web 231: Enterprise JavaScript I</title>
+    <!--This is linking the CSS files and google fonts.-->
+    <link href="Jasa-favorites.css" type="text/css" rel="stylesheet">
+    <link href="..\Jasa-global.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+	<body>
+     	<!--This is the outer container for the html.-->
+        <div id="container">
+            <!--The main header displayed on the page.-->
+            <h1 id="header">Welcome to the Temperature Conversion App!</h1>
+            <!--The sub header one displayed on the page.-->
+
+            <!--This holds the items in the list with no value.-->
+            <div class='sub-header'>
+            <h2 id="sub-header">Fahrenheit to Celsius Converter</h3>
+            <label for="input-int">Fahrenheit value:</label>
+            <input type="text" id="input-int" name="input-int"><br><br>
+            <button type="button" id="convert-temperature" class="btn-fav">Convert Temperature</button>
+        
+			</div >
+        <!--The creation of the Return on the page.-->
+            <div class='sub-header'>
+            <h2 id="sub-header">Conversion Results</h3>
+                <p id="java-script-output"></p>
+		</div >
+
+        <a id="return-home">Return</a>
+        <!--This is linking to the JavaScript file.-->
+        <script type="text/javascript" src="Jasa-favorites.js"></script>
+        </div>
+	</body>
+</html>
