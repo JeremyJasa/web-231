@@ -90,6 +90,8 @@ ol {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: left;
+	margin-right: 200px;
  }
  /*This sets the background color and text color for button primary class. */
  .btn-primary {
