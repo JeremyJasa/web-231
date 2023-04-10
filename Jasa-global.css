@@ -1,10 +1,9 @@
 /**
     Title: global.css
     Author: Jeremy Jasa
-    Date: 25 March 2023
+    Date: 09 April 2023
     Description: The CSS general styling HTML page.
 */
-
 /* Setting font for the body of the html. */
 body {
     font-family: 'Roboto','Helvetica Neue', sans-serif;
@@ -19,7 +18,8 @@ body {
 #return-home {
     color: #4F3674;
     text-decoration: none;
-    margin-left: 600px;
+    text-align:center;
+    padding-right: 300px;
 }
 /* This set the color when hovering over the link. */
 #return-home :hover {
