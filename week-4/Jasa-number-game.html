@@ -1,0 +1,52 @@
+<!--
+    Title: number-game.html
+    Author: Jeremy Jasa
+    Date: 09 April 2023
+    Description: The HTML for the number guessing game.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>Web 231: Enterprise JavaScript I</title>
+     <!--This is linking the CSS files and google fonts.-->
+     <link href="Jasa-number-game.css" type="text/css" rel="stylesheet">
+     <link href="../Jasa-global.css" type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--This is the outer container for the html.-->
+    <div id="container">
+      <!--The main header displayed on the page.-->
+      <h1 id="header">Welcome to the numbers game!</h1>
+      <!--The sub header one displayed on the page.-->
+      <div class="sub-header">
+        <h2>Pick a number between 1 and 10</h2>
+
+        <!--Input on the HTML-->
+        <label for="input">Guess the number:</label>
+        <input type="text" id="input" name="input" class="input"><br><br>
+
+        <!-- Calls javascript function to evaluate inputted number. -->
+        <button
+          type="button"
+          id="number-game"
+          class="btn-fav"
+          onclick="chkGuess()"
+        >Submit </button>
+      </div>
+      <!--The creation of the Return on the page.-->
+      <div class="sub-header">
+        <h2>Results</h2>
+        <h3 id="output"></h3>
+      </div>
+      <div id="return-home">
+        <!--The creation of the Return on the page.-->
+        <a>Return</a>
+      </div>
+      
+      <!--This is linking to the JavaScript file.-->
+      <script src="Jasa-number-game.js"></script>
+    </div>
+  </body>
+</html>
