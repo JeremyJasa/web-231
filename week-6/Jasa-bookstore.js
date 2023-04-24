@@ -10,6 +10,9 @@ Description: The JavaScript for the bookstore game.
 const books = ["The Hitchhiker's Guide to the Galaxy","The Great Gatsby","Ulysses"];
 const authors= ["F. Scott Fitzgerald","James Joyce","William Shakespeare"];
 const publishers = ["Simon & Schuster", "HarperCollins", "Penguin Random House"];
+authors.sort();
+publishers.sort();
+publishers.reverse();
 
 /* This displays a table in the results section of the HTML.*/
 function display()
