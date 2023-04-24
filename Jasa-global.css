@@ -1,7 +1,7 @@
 /**
     Title: global.css
     Author: Jeremy Jasa
-    Date: 09 April 2023
+    Date: 23 April 2023
     Description: The CSS general styling HTML page.
 */
 /* Setting font for the body of the html. */
@@ -107,3 +107,48 @@ ol {
  .full-width {
     width: 100%;
  }
+ /* This sets the format for table and ensure the length spans
+    the entire window.*/
+ table {
+
+    width: 100%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+ }
+
+ /*sets the colors and padding for header of the table*/
+ table thead th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+   background-color: #4F3674;
+    color: white;
+    border: #ddd 1px;
+    padding: 8px;
+ }
+
+ /*Creates the border for the header row */
+ table thead td{
+    border: #ddd 1px;
+    padding: 8px;
+ }
+/*Aligns the text for the rows in the table and sets the color*/
+table tbody td{
+    text-align: left;
+    color: black;
+    border: groove;
+  }
+/*This sets the background color and cursor icon when hover over the rows.*/
+ table tbody tr:hover
+ {
+    background-color: #D6A800;
+    color: #4F3674;
+    cursor: pointer;
+}
+
+
+
