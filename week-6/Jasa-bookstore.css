@@ -1,0 +1,47 @@
+/**
+    Title: bookstore.css
+    Author: Jeremy Jasa
+    Date: 23 April 2023
+    Description: The CSS for the bookstore and styling the HTML page.
+*/
+
+/* 
+   This is providing the format needed for the buttons the HTML page. 
+   Also creates the vertical line up of the buttons. 
+*/
+.btn-fav {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	cursor: pointer;
+    padding: 15px 32px;
+    background-color: #4F3674;
+    color: white;
+   margin:10px;
+    grid-template-columns: auto;
+	margin-top:50px;
+	width:375px;
+	margin-right: 500px;
+ }
+/* This creates the shadow box on the input box. */
+.sub-header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+	width: 600px;
+   margin:10px auto;
+    text-align: center;
+    color: #4F3674;
+	
+}
+/*sets the font size of the output*/
+#output {
+    font-size: 16px;
+}
+/*set the lighter text for h3 element */
+h3{
+    text-align: left;
+    font-weight: lighter;
+    color: black
+}

@@ -1,0 +1,55 @@
+<!--
+    Title: bookstore.html
+    Author: Jeremy Jasa
+    Date: 23 April 2023
+    Description: The HTML for the book store app.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>Web 231: Enterprise JavaScript I</title>
+     <!--This is linking the CSS files and google fonts.-->
+     <link href="Jasa-bookstore.css" type="text/css" rel="stylesheet">
+     <link href="../Jasa-global.css" type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--This is the outer container for the html.-->
+    <div id="container">
+      <!--The main header displayed on the page.-->
+      <h1 id="header">Welcome to the Bookstore App</h1>
+      <!--The sub header one displayed on the page.-->
+      <div class="sub-header">
+            <h2>My Favorites</h2>
+
+             <!--The drop-down menu on the HTML-->
+            <label for="input">Choose a listing:</label>
+            <select id="input" name="input" class="input">
+                <option selected>-Select-</option>
+                <option>Top 3 Favorite Books</option>
+                <option>Top 3 Favorite Authors</option>
+                <option>Top 3 Favorite Publishers</option>        
+            </select>    
+            <!-- Calls javascript function to evaluate inputted number. -->
+            <button
+            type="button"
+            id="bookstore"
+            class="btn-fav"
+            onclick="display()"
+            >Display Listing</button>
+      </div>
+      <!--The creation of the Return on the page.-->
+      <div id="return-home">
+        <!--The creation of the Return on the page.-->
+        <a>Return</a>
+      </div>
+      <div class="sub-header">
+        <h2>Results</h2>
+        <div id="output"></div>
+      </div>
+      <!--This is linking to the JavaScript file.-->
+      <script src="Jasa-bookstore.js"></script>
+    </div>
+  </body>
+</html>
