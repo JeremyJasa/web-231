@@ -1,0 +1,77 @@
+/**
+    Title: calculator.css
+    Author: Jeremy Jasa
+    Date: 30 April 2023
+    Description: The CSS for the calculator and styling the HTML page.
+*/
+
+/* 
+   This is providing the format needed for the buttons the HTML page. 
+   Also creates the vertical line up of the buttons. 
+*/
+.btn-fav {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+	cursor: pointer;
+    padding: 15px 32px;
+    background-color: #4F3674;
+    color: white;
+   margin:10px;
+    grid-template-columns: auto;
+	margin-top:50px;
+	width:375px;
+	margin-right: 500px;
+ }
+ .btn-fav:hover{
+ background-color: #D6A800;
+ }
+/* This creates the shadow box on the input box. */
+.sub-header{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+	width: 600px;
+   margin:10px auto;
+    text-align: center;
+    color: #4F3674;
+	
+}
+/*sets the font size of the output*/
+#output {
+    font-size: 16px;
+}
+/*set the lighter text for h3 element */
+h3{
+    text-align: left;
+    font-weight: lighter;
+    color: black
+}
+/*sets the grids for the four display boxes*/
+.calc-container{
+    display: grid;
+    width: 800px;
+    margin: 3%, auto, 0;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 300px;
+}
+/*This sets the results display boxes */
+.sub-header-small{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px 4px;
+	width: 600px;
+   margin:10px auto;
+    text-align: center;
+    color: #4F3674;
+    height: 100px;
+}
+/*This sets the text for text in the results boxes*/
+#Divideoutput{
+    font-size: 28px;
+}
+/*This sets the text for text in the results boxes*/
+#Multiplyoutput{
+    font-size: 28px;
+}

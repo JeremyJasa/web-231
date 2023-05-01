@@ -1,0 +1,77 @@
+<!--
+    Title: calculator.html
+    Author: Jeremy Jasa
+    Date: 30 April 2023
+    Description: The HTML for the calculator.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <title>Web 231: Enterprise JavaScript I</title>
+     <!--This is linking the CSS files and google fonts.-->
+     <link href="Jasa-calculator.css" type="text/css" rel="stylesheet">
+     <link href="../Jasa-global.css" type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--This is the outer container for the html.-->
+    <div id="container">
+      <!--The main header displayed on the page.-->
+      <h1 id="header">Welcome to the Calculator App</h1>
+
+      <!--The sub header one that is displayed on the page.-->
+      <div class="calc-container">
+           <div class="sub-header"> 
+            <h2>Multiply Form</h2>
+                    <!--Input on the HTML-->
+            <input type="text" id="MultiOne" name="MultiOne" class="input"><br><br>
+            <input type="text" id="MultiTwo" name="MultiTwo" class="input"><br><br>
+            <!-- Calls javascript function to evaluate inputted numbers. -->
+            <button
+            type="button"
+            id="button"
+            class="btn-fav"
+            onclick="displayMultiplyResults()"
+            >Multiply</button>
+            </div>
+
+      <!--The sub header two that is displayed on the page.-->    
+            <div class="sub-header-small">
+                <h2>Results</h2>
+                <div id="Multiplyoutput"></div>
+            </div>
+        </div>
+    <!--The sub header three that is displayed on the page.-->  
+      <div class="calc-container">
+            <div class="sub-header">
+            <h2>Divide Form</h2>
+                    <!--Input on the HTML-->
+            <input type="text" id="DivideOne" name="DivideOne" class="input"><br><br>
+            <input type="text" id="DivideTwo" name="DivideTwo" class="input"><br><br>            
+            <!-- Calls javascript function to evaluate inputted number. -->
+            <button
+            type="button"
+            id="button"
+            class="btn-fav"
+            onclick="displayDivideResults()"
+            >Divide</button>
+            </div>
+    <!--The sub header four that is displayed on the page.-->
+            <div class="sub-header-small">
+                <h2>Results</h2>
+                <div id="Divideoutput"></div>
+            </div>
+         </div>
+    </div>
+
+    <!--The creation of the Return on the page.-->
+      <div id="return-home">
+        <!--The creation of the Return on the page.-->
+        <a>Return</a>
+
+      <!--This is linking to the JavaScript file.-->
+      <script src="Jasa-calculator.js"></script>
+    </div>
+  </body>
+</html>
