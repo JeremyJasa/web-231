@@ -1,0 +1,62 @@
+<!--
+    Title: in-n-out-books.html
+    Author: Jeremy Jasa
+    Date: 7 May 2023
+    Description: The HTML for the in-n-out-books app.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--This is the title property for the page.-->
+     <title>Web 231: Enterprise JavaScript I</title>
+     <!--This is linking the CSS files and google fonts.-->
+     <link href="Jasa-in-n-out-books.css" type="text/css" rel="stylesheet">
+     <link href="../Jasa-global.css" type="text/css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <!--This is the outer container for the html.-->
+    <div id="container">
+      <!--The main header displayed on the page.-->
+      <h1 id="header">Welcome to In-N-Out-Books</h1>
+      <!--The sub header one displayed on the page.-->
+      <div class="sub-header">
+            <h2>My Favorites</h2>
+
+            <!--The drop-down menu on the HTML-->
+            <label for="input">Choose a listing:</label>
+            <select id="input" name="input" class="input">
+                <option selected>-Select-</option>
+                <option>Top 3 Favorite Books</option>
+                <option>Top 3 Favorite Authors</option>
+           </select>    
+            
+           <!-- Calls javascript function to evaluate option that was selected by the user. -->
+            <button
+            type="button"
+            id="bookstore"
+            class="btn-fav"
+            onclick="display()"
+            >Display Listing</button>
+      </div>
+
+      <!--The creation of the Return on the page.-->
+      <div id="return-home">
+      <a>Return</a>
+      </div>
+      
+      <!--Creates the results and provides a landing location for JavaScript output. -->
+      <div class="sub-header">
+        <h2>Results</h2>
+        <div id="output"></div>
+      </div>
+
+      <!--This is linking to the JavaScript file.-->
+      <script src="Jasa-in-n-out-books.js"></script>
+    
+    </div>
+  </body>
+</html>
