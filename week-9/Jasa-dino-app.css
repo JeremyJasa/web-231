@@ -1,0 +1,62 @@
+/**
+    Title: Jasa-dino-app.css
+    Author: Jeremy Jasa
+    Date: 14 May 2023
+    Description: The CSS for the Jasa-dino-app and styling the HTML page.
+*/
+
+/* 
+   This is providing the format needed for the buttons the HTML page. 
+   Also creates the vertical line up of the buttons. 
+*/
+.btn-fav {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 32px;
+    background-color: #4f3674;
+    color: white;
+    margin: 10px;
+    grid-template-columns: auto;
+    width: 375px;
+
+}
+
+/* This creates the shadow box on the input box. */
+.sub-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px 32px;
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    color: #4f3674;
+}
+
+/*sets the font size of the output*/
+#output {
+    font-size: 16px;
+}
+
+/*set the lighter text for h3 element */
+h3 {
+    text-align: left;
+    font-weight: lighter;
+    color: black;
+}
+
+/*This set the text alignment for the legend. */
+#legend {
+    text-align: left;
+}
+
+/*This sets the text for the radio button's text.*/
+.InputText {
+    text-align: left;
+}
+
+/*This ensures the Submit button is centered on the screen. */
+.button-header {
+    text-align: center;
+}
